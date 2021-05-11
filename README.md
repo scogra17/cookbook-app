@@ -16,31 +16,10 @@ $ python app.py
 3. In a python shell, access by: 
 	$ <Object name>.query.all()
 
-
-## Project journal 
-https://docs.google.com/document/d/1fzTE_AFB1A7JmUz-4jXnifOgEtxpAvjl_dLOgh2XTK8/edit?usp=sharing
-
-## Reviewing authentication
-https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login
-
-## Reviewing Flask 
-https://medium.com/technest/build-a-crud-app-with-flask-bootstrap-heroku-60dfa3a788e8
-
-## Killing process
-https://dev.to/dechamp/the-dreaded-bind-address-already-in-use-kill-it-583l
-$lsof -i :<PORT#>
-$kill -9 <PID>
-
 ## Troubleshooting 
 
 ### Css changes won't load in broswer
 The browser is likely caching the old main.css. Click 'reload' while holding down the 'shift' key to do a full reload of the browser. 
-
-## Pushing to master 
-- https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
-- https://www.datree.io/resources/git-error-fatal-remote-origin-already-exists
-git remote set-url origin https://github.com/scogra17/CookbookApp
-git push -u origin master
 
 ## Heroku deployment
 https://reverse-cook-app.herokuapp.com/
@@ -76,13 +55,3 @@ $ db.metadata.tables
 ## DB browsing
 SQLite: https://docs.sqlalchemy.org/en/13/orm/tutorial.html
 Use DB broswer for SQLite: https://sqlitebrowser.org/dl/
-
-## Logging to console
-print(<message>, file=sys.stdout)
-
-## CSS
-### Float flex box to the right
-https://stackoverflow.com/questions/36182635/making-a-flex-item-float-right/36182782
-
-
-
